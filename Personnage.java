@@ -40,7 +40,7 @@ public class Personnage {
 
 	public int revive(int heal){
 		setVie(this.vie+heal);
-        return vie;
+        	return vie;
 	}
 
 	public int soleil(int chaud){
