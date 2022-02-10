@@ -37,5 +37,14 @@ public class Personnage {
 	public int attack(int pt){
 		return pt;
 	}
-}
 
+	public int revive(int heal){
+		setVie(this.vie+heal);
+        return vie;
+	}
+
+	public int soleil(int chaud){
+		setVie(this.vie-chaud);
+		return vie;
+	}
+}
